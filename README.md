@@ -1,16 +1,16 @@
 # Mapillary Sequence Downloader
 
-Download all images from a [Mapillary](http://mapillary.com) sequence by typing `python3 downloader.py <SEQUENCE-ID>`.
+Download all images from a [Mapillary](http://mapillary.com) sequence by running downloader.py
 
-## License
+# More info
 
-Copyright (c) 2014, Thomas Skowron
-All rights reserved.
+When you run downloader.py, it will ask you for your client id and the sequence id.
+You can find the sequence key by viewing an image on the mapillary website, and clicking advanced in the image options button
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+![Image Options](https://github.com/DanGamingTV/mapillary-sequence-downloader/raw/master/sequence.PNG) 
 
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+You can get a client id by creating an application [here](https://www.mapillary.com/dashboard/developers)
 
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Enter this info into the python window, and you will see the status of the download and how many images are in the sequence.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Once the download finishes, the python window will close and the downloaded sequence will be in the downloads folder where the script is located.
